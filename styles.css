@@ -59,6 +59,26 @@ footer .inner{padding:18px 0;text-align:center}
 @media (min-width: 801px){
   #primary-nav{display:flex !important;position:static;gap:0;background:transparent;padding:0}
 }
+
+/* Beautiful schedule section */
+.schedule-section{background:#f0f6ff;border:1px solid #e0ecff;border-radius:12px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.schedule-header{display:flex;align-items:center;gap:10px;margin:0 0 12px}
+.schedule-header .emoji{font-size:22px}
+.schedule-grid{display:grid;gap:16px}
+@media (min-width:700px){
+  .schedule-grid{grid-template-columns:repeat(3,1fr)}
+}
+.schedule-card{background:#fff;border:1px solid #e5e7eb;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04);overflow:hidden}
+.schedule-card .card-head{padding:12px 14px;background:linear-gradient(180deg,#f7fbff,#eef6ff);border-bottom:1px solid #e6efff}
+.schedule-card .card-head h4{margin:0;color:#0d47a1}
+.schedule-card .card-body{padding:10px 14px}
+.schedule-card table{width:100%;border-collapse:collapse}
+.schedule-card th{font-size:12px;text-transform:uppercase;letter-spacing:.02em;color:#555;text-align:left;padding:6px 4px}
+.schedule-card td{padding:6px 4px;border-top:1px solid #f1f3f5}
+.schedule-card .remark{font-size:13px;color:#555;margin:8px 0 0 0}
+
+.important-badge{display:inline-block;background:#0d47a1;color:#fff;border-radius:999px;padding:2px 8px;font-size:12px}
+
 .foot-col{display:flex;flex-direction:column}
 .foot-title{margin:0 0 8px 0;color:#ffeb3b;font-size:16px}
 .foot-text{color:#e0ebff;margin:4px 0 0 0}
