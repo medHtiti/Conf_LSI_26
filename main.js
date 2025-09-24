@@ -156,10 +156,6 @@ function renderCommonContent(){
       </a>
     </div>
 
-    <div class="sidebar-section">
-      <h3>Important Deadline</h3>
-      <img src="assets/images/commonwidget/deadline.png" alt="Important Deadline"/>
-    </div>
 
     <div class="sidebar-section">
       <h3>Templates for ICEODIS_2026 Conference</h3>
