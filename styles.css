@@ -87,3 +87,4 @@ footer .inner{padding:18px 0;text-align:center}
 .sidebar-section h3{color:#0d47a1;font-size:18px;font-weight:700;margin:12px 0}
 .sidebar-section img{max-width:100%;height:auto;border-radius:6px}
 .sidebar-partners img{display:block;margin:10px auto;width:180px;max-width:100%;object-fit:contain}
+.navbar {z-index:9999}
