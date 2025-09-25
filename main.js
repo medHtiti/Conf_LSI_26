@@ -5,7 +5,7 @@ function renderHeader(){
     <div class="brand-wrap">
       <img src="assets/images/logo.png" alt="ICEODIS Logo" class="logo"/>
       <div class="brand">
-        <span class="brand-title">ICEODIS 2026</span>
+        <span class="brand-title">28-29 April</span>
         <span class="brand-sub">Electronic, Optical Devices & Intelligent Systems</span>
       </div>
     </div>
@@ -71,13 +71,13 @@ function renderFooter(){
   })();
 
   el.innerHTML=`
-  <div class="container">
+  <div class="container" xmlns="http://www.w3.org/1999/html">
     <div class="footer-grid">
       <section class="foot-col">
         <div class="brand-wrap" style="margin-bottom:10px">
           <img src="assets/images/logo.png" alt="ICEODIS Logo" class="logo"/>
           <div class="brand">
-            <span class="brand-title">ICEODIS 2026</span>
+            <span class="brand-title">28-28 April</span></br>
             <span class="brand-sub">Electronic, Optical Devices & Intelligent Systems</span>
           </div>
         </div>
@@ -186,12 +186,12 @@ function renderCommonContent(){
 
     <div class="sidebar-section sidebar-partners">
       <h3>Partners</h3>
-      <img src="assets/images/commonwidget/part8.png" alt="Partner 8"/>
+      
       <img src="assets/images/commonwidget/part2.png" alt="Partner 2"/>
       <img src="assets/images/commonwidget/part3.png" alt="Partner 3"/>
-      <img src="assets/images/commonwidget/part4.png" alt="Partner 4"/>
-      <img src="assets/images/commonwidget/part6.png" alt="Partner 6"/>
-      <img src="assets/images/commonwidget/part7.png" alt="Partner 7"/>
+      
+     
+      
       <img src="assets/images/commonwidget/part1.png" alt="Partner 1"/>
     </div>
   `;
