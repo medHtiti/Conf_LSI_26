@@ -150,15 +150,30 @@ renderFooter();
 function renderCommonContent(){
   const el=document.getElementById('common-content');
   if(!el) return;
-  el.innerHTML=`
+
+  // Detect if we are on the home page (index.html or root path)
+  let isHome=false;
+  try{
+    const path = window.location.pathname || '';
+    const last = path.split('/').pop();
+    isHome = (last === '' || last === 'index.html');
+  }catch(e){ isHome=false; }
+
+  // Build sidebar HTML, excluding the CFP block on the home page
+  let html = '';
+
+  if(!isHome){
+    html += `
     <div class="sidebar-section">
       <h3>Call For Paper</h3>
       <a href="https://raw.githubusercontent.com/medHtiti/templates/main/program.pdf" target="_blank" rel="noopener">
         <img src="assets/images/CFP.png" alt="CFP"/>
       </a>
     </div>
+    `;
+  }
 
-
+  html += `
     <div class="sidebar-section">
       <h3>Templates for ICEODIS_2026 Conference</h3>
       <div style="display:flex;align-items:center;gap:8px">
@@ -180,6 +195,8 @@ function renderCommonContent(){
       <img src="assets/images/commonwidget/part1.png" alt="Partner 1"/>
     </div>
   `;
+
+  el.innerHTML = html;
 }
 
 renderCommonContent();
