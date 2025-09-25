@@ -6,7 +6,7 @@ function renderHeader(){
       <img src="assets/images/logo.png" alt="ICEODIS Logo" class="logo"/>
       <div class="brand">
         <span class="brand-title">28-29 April</span>
-        <span class="brand-sub">Electronic, Optical Devices & Intelligent Systems</span>
+        <span class="brand-sub">International Conference on Electronic, Optical Devices & Intelligent Systems</span>
       </div>
     </div>
     <button class="hamburger" id="nav-toggle" aria-label="Toggle navigation" aria-controls="primary-nav" aria-expanded="false">
