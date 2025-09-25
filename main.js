@@ -20,6 +20,7 @@ function renderHeader(){
       <a href="committees.html" data-path="committees.html">Committees</a>
       <a href="topics.html" data-path="topics.html">Topics</a>
       <a href="submission.html" data-path="submission.html">Submission</a>
+      <a href="publication.html" data-path="publication.html">Publication</a>
       <a href="venue.html" data-path="venue.html">Venue</a>
     </nav>
   </div>`;
@@ -94,6 +95,7 @@ function renderFooter(){
         <a href="topics.html">Topics</a>
         <a href="speakers.html">Speakers</a>
         <a href="submission.html">Submission</a>
+        <a href="publication.html">Publication</a>
         <a href="venue.html">Venue</a>
       </nav>
 
